@@ -114,6 +114,37 @@
 // https://codepen.io/sakri/pen/Iklgx
 // Comments generators
   
-  
+// https://www.tablesgenerator.com/text_tables
+// TextTable Generators
+ 
+// PlantUML Generator
 
+ 
+           NH          NH, EH-length      NH, EH-length
+           +-------+      +------+            +-------+
+           |       |      |      |            |       |
+           |       v      |      v            |       v
+     +-------------+-------------+-//-+---------------+--------------+
+     |             |             |    |               |              |
+     |    IPv6     |    Ext.     |    |     Ext.      |  Upper-Layer |
+     |    header   |    Header   |    |     Header    |  Protocol    |
+     |             |             |    |               |              |
+     +-------------+-------------+-//-+---------------+--------------+
+
+      fixed length    variable number of EHs & length
+     <------------> <-------------------------------->
+
+                      Figure 2: IPv6 Packet Structure
+         
+https://www.rfc-editor.org/rfc/rfc9115.txt
+
+// ************************ Title Head ************************
+// 1. do something
+// 2. do something
+// ************************************************************
+
+https://modeling-languages.com/text-uml-tools-complete-list/
+
+https://github.com/asciitosvg/asciitosvg
+https://docs.asciidoctor.org/asciidoctor/latest/
   
