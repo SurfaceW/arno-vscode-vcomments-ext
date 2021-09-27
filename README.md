@@ -1,17 +1,17 @@
 # arno-vscode-vcomments-ext
+
 Arno's Various Comments Plugin
 
 This is the README for your extension "jscommenter". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Easily insert useful or funny ascii diagrams into your code
 
-For example if there is an image subfolder under your extension project workspace:
+> Here is the demo to insert a dingtalk ascii logo
 
-\!\[feature X\]\(images/feature-x.png\)
+![](https://i.loli.net/2021/09/28/92suxkAErC1f6gl.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
@@ -38,17 +38,15 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- support basic feature of comment snippet insertion to vscode editor via `javascript` and `typescript` context
 
 -----------------------------------------------------------------------------------------------------------
+
+## Develop guide
+
+- run `node ./tools/generateSnippets.js` to generate `snippet.json` automatically
+
+
 ## Following extension guidelines
 
 Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.

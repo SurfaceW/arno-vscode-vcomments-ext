@@ -1,5 +1,5 @@
 {
-  "name": "jscommenter",
+	"name": "jscommenter",
 	"displayName": "JSCommenter",
 	"description": "provide useful and interesting comments",
 	"version": "0.0.1",
@@ -10,10 +10,29 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:jscommenter.helloWorld"
+		"onCommand:jscommenter.helloWorld"
 	],
 	"main": "./out/extension.js",
+	"category": ["Snippets"],
 	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./src/snippets/snippet.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./src/snippets/snippet.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./src/snippets/snippet.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./src/snippets/snippet.json"
+			}
+		],
 		"commands": [
 			{
 				"command": "jscommenter.helloWorld",
@@ -22,10 +41,10 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "yarn run compile",
+		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
-		"pretest": "yarn run compile && yarn run lint",
+		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},
