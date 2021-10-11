@@ -1,9 +1,9 @@
 {
-  "name": "jscommenter",
-  "displayName": "JSCommenter",
-  "description": "provide useful and interesting comments",
-  "publisher": "Arno",
-  "version": "0.0.1",
+  "name": "arno-commenter",
+  "displayName": "Arno Commenter",
+  "description": "Provide useful and interesting comments",
+  "publisher": "surfacew",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -13,12 +13,14 @@
   "categories": [
     "Other"
   ],
+  "icon": "assets/comments.png",
   "activationEvents": [
     "onCommand:jscommenter.helloWorld"
   ],
   "main": "./out/extension.js",
   "category": [
-    "Snippets"
+    "Snippets",
+    "DingTalk"
   ],
   "contributes": {
     "snippets": [
