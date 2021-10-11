@@ -41,8 +41,9 @@
     ],
     "commands": [
       {
-        "command": "jscommenter.helloWorld",
-        "title": "Hello World"
+        "command": "jscommenter.insertComment",
+        "title": "Insert Comment",
+        "category": "Snippets"
       }
     ]
   },
